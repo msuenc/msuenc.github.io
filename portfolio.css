@@ -1,78 +1,9 @@
-#container {
-    display: grid;
-}
-
-
-#phta {
-	border-radius: 50%;
-}
-
-#phta:hover {
-	opacity: 0.3;
-}
-
-.titres {
-
-}
-
-#contact {
-    background-color: #3a0ca3ff;
-    position: absolute;
-    border-radius: 50%;
-}
-
-#etudes {
-    background-color: #f72585 ;
-    position: relative;
-    
-
-}
-
-.etudes {}
-
-.
-.logos {
+.logos , .drapeau {
     width: 75px;
     height: 75px;
 }
 
-.diplome {}
-
-.etablissement {}
-
-#experiences {
-    background-color: #7209b7ff;
-    position: relative;
-    
+/* Sers à cacher les boîtes */
+.cache {
+    display: none;
 }
-
-.experiences {}
-
-.poste {}
-
-.entreprise {}
-
-.descriptif {}
-
-#competences {
-    background-color: #4361eeff;
-    position: relative;
-    
-}
-
-#langues {}
-
-.drapeau {
-    width: 75px;
-    height: 75px;
-}
-
-.niveaux {}
-
-#loisirs {
-    background-color: #4cc9f0ff;
-    position: relative;
-    
-}
-
-#arts {}
