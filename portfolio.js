@@ -1,6 +1,22 @@
+//Afficher et cacher les parties
+$('#t1').click(function(){
+    $('#presentation').toggle();
+    $('#langues').toggle();
+    $('#informatiques').toggle();
 
+});
 
-//$('#t2').dblclick(function(){$('#cache2').removeAttr('hidden');});
-//$('#t3').dblclick(function(){$('#langues').removeAttr('hidden');$('#informatiques').removeAttr('hidden');});
-//$('#t4').dblclick(function(){$('#arts').removeAttr('hidden');});
+$('#t2').click(function(){
+    $('#etudes').toggle();
+    $('#experiences').toggle();
+});
+
+$('#t3').click(function(){
+    $('#arts').toggle();
+    $('#sports').toggle();
+});
+
+$('#t4').click(function(){
+    $('#contacts').toggle();
+});
 

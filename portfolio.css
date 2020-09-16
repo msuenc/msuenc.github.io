@@ -1,5 +1,53 @@
+
+/* Cache div à l'ouverture de la page */
+#presentation , #langues , #informatiques {
+    display: none;
+}
+
+#etudes , #experiences {
+    display: none;
+}
+
+#arts , #sports {
+    display: none;
+}
+
+#contacts {
+    display: none;
+}
+
+
+/* Règle la taille des logos, des drapeaux et des pictogrammes */
 .logos , .drapeau , .pictos {
     width: 75px;
     height: 75px;
     border: 1px solid black;
+}
+
+
+/* Règle les couleurs des boîtes */
+#box1 {
+    background-color: #F7AEF8;
+}
+
+#box2 {
+    background-color: #B388EB;
+}
+
+#box3 {
+    background-color: #8093F1;
+}
+
+#box4 {
+    background-color: #72DDF7;
+}
+
+/* Centre les "titres" */
+#t1 , #t2 , #t3 , #t4 {
+    text-align: center;
+}
+
+/* */
+.row {
+    height: 50%;
 }
