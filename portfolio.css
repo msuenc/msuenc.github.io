@@ -1,5 +1,5 @@
-.logos , .drapeau {
+.logos , .drapeau , .pictos {
     width: 75px;
     height: 75px;
+    border: 1px solid black;
 }
-

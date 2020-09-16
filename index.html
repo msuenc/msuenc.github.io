@@ -10,7 +10,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
     
@@ -18,16 +17,25 @@
         <div class="row">
             <section class="col box">
                 <button type="button" class="btn btn-outline-dark" id="t1"><h1>Profil</h1></button>
-                <div class="d-none" id="presentation">
+                <div id="presentation">
                     <h2>À propos de moi</h2>
+                    <p>
+                        Phrase intro perso
+                    </p>
+                    <p>
+                        Qualités
+                    </p>
+                    <p>
+                        Défauts
+                    </p>
                 </div>
 
-                <div class="d-none" id="langues">
+                <div id="langues">
                     <h2>Langues</h2>
 
                     <ul class="list-unstyled">
                         <li class="media">
-                          <img src="drapeau-france.jpg" class="mr-3 rounded-circle drapeau" alt="Drapeau de France">
+                          <img src="images/drapeau-france.jpg" class="mr-3 rounded-circle drapeau" alt="Drapeau de France">
                           <div class="media-body">
                                 <h5 class="mt-0 mb-1">Français</h5>
                                     Langue maternelle
@@ -37,7 +45,7 @@
                         <br>
 
                         <li class="media">
-                          <img src="drapeau-nz.jpg" class="mr-3 rounded-circle drapeau" alt="Drapeau de la Nouvelle-Zélande">
+                          <img src="images/drapeau-nz.jpg" class="mr-3 rounded-circle drapeau" alt="Drapeau de la Nouvelle-Zélande">
                           <div class="media-body">
                                 <h5 class="mt-0 mb-1">Anglais</h5>
                                     Lu, écrit et parlé : pratique régulière.
@@ -47,7 +55,7 @@
                         <br>
 
                         <li class="media">
-                          <img src="drapeau-japon.png" class="mr-3 rounded-circle drapeau" alt="Drapeau du Japon">
+                          <img src="images/drapeau-japon.png" class="mr-3 rounded-circle drapeau" alt="Drapeau du Japon">
                           <div class="media-body">
                                 <h5 class="mt-0 mb-1">Japonais</h5>
                                     Notions scolaires
@@ -57,7 +65,7 @@
                         <br>
 
                         <li class="media">
-                            <img src="drapeau-italie.jpg" class="mr-3 rounded-circle drapeau" alt="Drapeau de l'Italie">
+                            <img src="images/drapeau-italie.jpg" class="mr-3 rounded-circle drapeau" alt="Drapeau de l'Italie">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">Italien</h5>
                                     Faibles notions
@@ -67,7 +75,7 @@
                         <br>
 
                         <li class="media">
-                            <img src="drapeau-espagne.png" class="mr-3 rounded-circle drapeau" alt="Drapeau de l'Espagne">
+                            <img src="images/drapeau-espagne.png" class="mr-3 rounded-circle drapeau" alt="Drapeau de l'Espagne">
                             <div class="media-body">
                                 <h5 class="mt-0 mb-1">Espagnol</h5>
                                     Faibles notions
@@ -77,11 +85,11 @@
 
                 </div>
 
-                <div class="d-none" id="informatiques">
+                <div id="informatiques">
                     <h2>Informatiques</h2>
                     <article>
                         <figure>
-                            <img src="">
+                            <img class="logos rounded-circle" src="images/pack-office.jpg">
                         </figure>
                         <figcaption>
                             <h4>Pack Office (Word, PowerPoint, Publisher, Excel, Outlook...)</h4>
@@ -91,9 +99,11 @@
                         </figcaption>
                     </article>
 
+                    <br>
+
                     <article>
                         <figure>
-                            <img src="">
+                            <img class="logos rounded-circle" src="images/logo-html.png">
                         </figure>
                         <figcaption>
                             <h4>HTML</h4>
@@ -103,9 +113,11 @@
                         </figcaption>
                     </article>
 
+                    <br>
+
                     <article>
                         <figure>
-                            <img src="">
+                            <img class="logos rounded-circle" src="images/logo-css.png">
                         </figure>
                         <figcaption>
                             <h4>CSS</h4>
@@ -115,9 +127,11 @@
                         </figcaption>
                     </article>
 
+                    <br>
+
                     <article>
                         <figure>
-                            <img src="">
+                            <img class="logos rounded-circle" src="images/logo-php-mysql.png">
                         </figure>
                         <figcaption>
                             <h4>PHP/MySQL</h4>
@@ -127,9 +141,11 @@
                         </figcaption>
                     </article>
 
+                    <br>
+
                     <article>
                         <figure>
-                            <img src="">
+                            <img class="logos rounded-circle" src="images/logo-js.png">
                         </figure>
                         <figcaption>
                             <h4>JavaScript</h4>
@@ -139,9 +155,11 @@
                         </figcaption>
                     </article>
 
+                    <br>
+
                     <article>
                         <figure>
-                            <img src="">
+                            <img class="logos rounded-circle" src="images/logo-python.jpg">
                         </figure>
                         <figcaption>
                             <h4>Python</h4>
@@ -155,53 +173,63 @@
             
             <section class="col box">
                 <button type="button" class="btn btn-outline-dark" id="t2"><h1>Formations & Expériences</h1></button>
-                <div class="d-none" id="etudes">
+                <div id="etudes">
                     <h2>Études</h2>
-                    <article class="etudes">
-                        <figure>
-                            <img class="rounded-circle logos" src="logo-lbp.jpg">
-                        </figure>
-                        <figcaption>
-                            <h4 class="diplome">Baccalauréat technologique</h4>
-                            <a href="https://blaisepascal.ddec.nc/"><h5 class="etablissement">Lycée Blaise Pascal</h5></a>
-                        </figcaption>
-                    </article>
-                    
-                    <article class="etudes">
-                        <figure>
-                            <img class="rounded-circle logos" src="logo-udem.png">
-                        </figure>
-                        <figcaption>
-                            <h4 class="diplome">Mineure en psychologie</h4>
-                            <a href="https://www.umontreal.ca/"><h5 class="etablissement">Université de Montréal (UdeM)</h5></a>
-                        </figcaption>
-                    </article>
-                    
-                    <article class="etudes">
-                        <figure>
-                            <img class="rounded-circle logos" src="logo-cci.jpg">
-                        </figure>
-                        <figcaption>
-                            <h4 class="diplome">Développeur Web et Web mobile</h4>
-                            <a href="https://www.cci.nc/"><h5 class="etablissement">Chambre du Commerce et de l'Industrie (CCI)</h5></a>
-                        </figcaption>
-                    </article>
+
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/logo-lbp.jpg" class="mr-3 rounded-circle logos">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Baccalauréat technologique</h5>
+                                <a href="https://blaisepascal.ddec.nc/"><h6 class="etablissement">Lycée Blaise Pascal</h6></a>
+                                    Spécialité Système d'Information et Gestion.
+                                    Obtention du diplôme avec mention Assez Bien en 2017.
+                            </div>
+                        </li>
+
+                        <li class="media my-4">
+                            <img src="images/logo-udem.png" class="mr-3 rounded-circle logos">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Mineure en psychologie</h5>
+                                <a href="https://www.umontreal.ca/"><h6 class="etablissement">Université de Montréal (UdeM)</h6></a>
+                                
+                            </div>
+                        </li>
+
+                        <li class="media">
+                            <img src="images/logo-cci.jpg" class="mr-3 rounded-circle logos">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Développeur Web et Web mobile</h5>
+                                <a href="https://www.cci.nc/"><h6 class="etablissement">Chambre du Commerce et de l'Industrie (CCI)</h6></a>
+                                
+                            </div>
+                        </li>
+                      </ul>
                 </div>
 
-                <div class="d-none" id="experiences">
+                <div id="experiences">
                     <h2>Expériences</h2>
-                    <article class="experiences">
-                        <h4 class="poste">Préposée à l'entretien pour personnes en pertes d'autonomie</h4>
-                            <a href="https://repit-ressource.com/"><h5 class="entreprise">Répit-Ressources de l'Est de Montréal</h5></a>
-                                <p class="descriptif">Réaliser la liste de tâches ménagères faites par les clients</p>
-                    </article>
 
-                    <article class="experiences">
-                        <h4 class="poste">Barista/Serveuse</h4>
-                            <h5 class="entreprise">Café El Mundo</h5>
-                                <p class="descriptif"> Accueillir et servir les clients; <br>
-                                Ouvrir et fermer le café.</p>
-                    </article>
+                    <ul class="list-unstyled">
+                        <li class="media">
+                            <img src="images/logo-repit.png" class="mr-3 rounded-circle logos">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Préposée à l'entretien pour personnes en perte d'autonomie</h5>
+                                <a href="https://repit-ressource.com/"><h6 class="entreprise">Répit-Ressources de l'Est de Montréal</h6></a>
+                                    Réaliser la liste de tâches ménagères faites par les clients
+                            </div>
+                        </li>
+
+                        <li class="media my-4">
+                            <img src="images/" class="mr-3 rounded-circle logos">
+                            <div class="media-body">
+                                <h5 class="mt-0 mb-1">Barista/Serveuse</h5>
+                                <h6 class="entreprise">Café El Mundo</h6>
+                                    Accueillir et servir les clients;
+                                    Ouvrir et fermer le café.
+                            </div>
+                        </li>
+                      </ul>
                 </div>
             </section>
         </div>
@@ -209,121 +237,270 @@
         <div class="row">
             <section class="col box">
                 <button type="button" class="btn btn-outline-dark" id="t3"><h1>Loisirs</h1></button>
-                <div class="d-none" id="arts">
+                <div id="arts">
                     <h2>Artistiques</h2>
-                        <h4>Esthétique</h4>
-                            <h5>Coiffure</h5>
-                                <p>
-                                    J'aime beaucoup la coiffure : que ce soit le tressage, 
-                                    lissage, le fait de boucler, les décolorations et les colorations...
-                                </p>
-                        
-                            <h5>Maquillage</h5>
-                                <p>
-                                    J'ai toujours été fasciné par le maquillage. Petite, j'adorais me faire maquiller pendant 
-                                    les foires, les fêtes... Malheureusement, ma mère n'a jamais été très coquette. Mais dès qu'elle
-                                    m'a autorisé le maquillage, je n'ai pas arrêter. J'aime surtout les "make-up" plutôt festif et 
-                                    extravagant : maquillage pour Halloween, pour sortir faire la fête, pour faire des "shooting" photo...
-                                </p>
-                        
-                            <h5>Manucure</h5>
-                                <p>
-                                    La manucure a toujours été quelque chose de j'adore : que ce soit de me 
-                                    faire faire les ongles ou de faire mes ongles ou ceux de quelque d'autre.
-                                    Assortir les couleurs, faire divers motifs...
-                                </p>
+                    <div id="esthetiques" class="media">
+                        <img src="images/esthetiques.png" class="mr-3 rounded-circle pictos">
+                        <div class="media-body">
+                            <h4 class="mt-0">Esthétiques</h4>
 
-                        <h4>Photographie</h4>
-                            <h5>Paysages</h5>
-                                <p>
-                                    Généralement, lorsque je me sens bien (que ce soit en sécurité, à l'aise...), 
-                                    j'aime prendre en photo l'endroit où je me trouve comme pour garder un souvenir
-                                    de l'instant : pouvoir l'emporter avec moi et avoir l'impression d'y être quand
-                                    je tombe sur mon cliché.
-                                </p>
-                            <h5>Nourriture</h5>
-                                <p>
-                                    Étant une métisse de plusieurs cultures différentes et une grande famille, je passe 
-                                    énormement de temps à des repas (très souvent) familliaux. C'est comme ça que j'ai pris 
-                                    goût à prendre en photo la nourriture : que ce soit les tables "buffets" dans ma famille,
-                                    mes sorties aux restaurants...
-                                </p>
-                            <h5>Portraits</h5>
-                                <p>
-                                    Je suis quelqu'un de très tournée vers la famille. Il n'y a personne sur cette Terre que je respecte
-                                    et qui m'apporte autant d'amour, de réconfort et de bonheur en général que ma famille.
-                                    Prendre en photo mes soeurs, mes cousins, mes oncles et mes tantes... C'est toujours un plaisir
-                                    de pouvoir les avoir avec moi en photos.
-                                </p>
+                            <br>
+                      
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                <img id="coiffure" src="images/coiffure.png" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Coiffure</h5>
+                                        J'aime beaucoup la coiffure : que ce soit le tressage, 
+                                        lissage, le fait de boucler, les décolorations et les colorations...
+                                </div>
+                            </div>
 
-                        <h4>Musique</h4>
-                            <h5>Chant</h5>
-                                <p>
-                                    J'ai toujours adoré chanter. Depuis que je suis haute comme trois pommes, je chante plus que je ne parle.
-                                    À l'époque, j'ai dû commencer par chanter du Lorie et du Britney Spears en couche dans mon salon.
-                                    En grandissant, j'ai pris des cours de chant pour m'améliorer. J'ai fais quelques concerts également.
-                                    Malheureusement, j'ai délaissé les cours de chant pour me concentrer sur mes études.
-                                </p>
-                            <h5>Piano</h5>
-                                <p>
-                                    
-                                </p>
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img id="maquillage" src="images/maquillage.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Maquillage</h5>
+                                        J'ai toujours été fasciné par le maquillage. Petite, j'adorais me faire maquiller pendant 
+                                        les foires, les fêtes... Malheureusement, ma mère n'a jamais été très coquette. Mais dès qu'elle
+                                        m'a autorisé le maquillage, je n'ai pas arrêter. J'aime surtout les "make-up" plutôt festif et 
+                                        extravagant : maquillage pour Halloween, pour sortir faire la fête, pour faire des "shooting" photo...
+                                </div>
+                            </div>
 
-                        <h4>Cinématographie</h4>
-                            <h5>Films</h5>
-                                <p>
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img id="manucure" src="images/manucure.png" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Manucure</h5>
+                                        La manucure a toujours été quelque chose de j'adore : que ce soit de me 
+                                        faire faire les ongles ou de faire mes ongles ou ceux de quelque d'autre.
+                                        Assortir les couleurs, faire divers motifs...
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                </p>
-                            <h5>Séries</h5>
-                                <p>
+                    <br>
 
-                                </p>
-                            <h5>Tutoriels</h5>
-                                <p>
+                    <div id="photographie" class="media">
+                        <img src="images/photographie.png" class="mr-3 rounded-circle pictos">
+                        <div class="media-body">
+                          <h4 class="mt-0">Photographie</h4>
 
-                                </p>
+                          <br>
+                      
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                <img src="images/paysages.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Paysages</h5>
+                                        Généralement, lorsque je me sens bien (que ce soit en sécurité, à l'aise...), 
+                                        j'aime prendre en photo l'endroit où je me trouve comme pour garder un souvenir
+                                        de l'instant : pouvoir l'emporter avec moi et avoir l'impression d'y être quand
+                                        je tombe sur mon cliché.
+                                </div>
+                            </div>
 
-                        <h4>Littérature</h4>
-                            <h5>Écriture</h5>
-                                <p>
-                                    Pendant mon temps libre, lorsque j'ai de l'inspiration ou que je ressents comme un excès de sentiments,
-                                    j'écris. À l'école, j'ai tenu plusieurs journaux intimes. Après quoi, j'ai essayé d'écrire plusieurs chose :
-                                    poèmes, chansons, fictions...
-                                </p>
-                            <h5>Lecture</h5>
-                                <p>
-                                    Étant plus jeune, j'avais beaucoup de mal à apprécier la lecture : j'avais l'impression de parler avec un 
-                                    adulte étranger à chaque fois... Ma mère, qui elle est un rat de bibliothèque, m'a tout de même encourager à 
-                                    lire en cherchant le type de lecture qui me conviendrait le plus. Ainsi, j'ai commencé à lire des petites histoires
-                                    avant de me coucher à mes 8 ans et depuis, la lecture est comme une vieille amie : toujours là pour me remonter le moral 
-                                    et me changer les idées quand j'en ai besoin.
-                                </p>
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/nourriture.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Nourriture</h5>
+                                        Étant une métisse de plusieurs cultures différentes et une grande famille, je passe 
+                                        énormement de temps à des repas (très souvent) familliaux. C'est comme ça que j'ai pris 
+                                        goût à prendre en photo la nourriture : que ce soit les tables "buffets" dans ma famille,
+                                        mes sorties aux restaurants...
+                                </div>
+                            </div>
 
-                        <h4>Arts plastiques</h4>
-                            <h5>Dessins</h5>
-                                <p>
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/portrait.png" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Portraits</h5>
+                                        Je suis quelqu'un de très tournée vers la famille. Il n'y a personne sur cette Terre que je respecte
+                                        et qui m'apporte autant d'amour, de réconfort et de bonheur en général que ma famille.
+                                        Prendre en photo mes soeurs, mes cousins, mes oncles et mes tantes... C'est toujours un plaisir
+                                        de pouvoir les avoir avec moi en photos.
+                                </div>
+                            </div>
 
-                                </p>
-                            <h5>Peintures</h5>
-                                <p>
+                        </div>
+                    </div>
 
-                                </p>
-                            <h5>Artisanat</h5>
-                                <p>
-                                    
-                                </p>
+                    <br>
 
-                    </article>
+                    <div id="musique" class="media">
+                        <img src="images/musique.jpg" class="mr-3 rounded-circle pictos">
+                        <div class="media-body">
+                          <h4 class="mt-0">Musique</h4>
+
+                          <br>
+                      
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                <img src="images/chant.png" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Chant</h5>
+                                        J'ai toujours adoré chanter. Depuis que je suis haute comme trois pommes, je chante plus que je ne parle.
+                                        À l'époque, j'ai dû commencer par chanter du Lorie et du Britney Spears en couche dans mon salon.
+                                        En grandissant, j'ai pris des cours de chant pour m'améliorer. J'ai fais quelques concerts également.
+                                        Malheureusement, j'ai délaissé les cours de chant pour me concentrer sur mes études.
+                                </div>
+                            </div>
+
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/piano.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Piano</h5>
+                                        
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="cinema" class="media">
+                        <img src="images/cinema.png" class="mr-3 rounded-circle pictos">
+                        <div class="media-body">
+                          <h4 class="mt-0">Cinématographie</h4>
+
+                          <br>
+                      
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                <img src="images/" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Films</h5>
+                                        
+                                </div>
+                            </div>
+
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Séries</h5>
+                                        
+                                </div>
+                            </div>
+
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Tutoriels</h5>
+                                        
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="litterature" class="media">
+                        <img src="images/litterature.jpg" class="mr-3 rounded-circle pictos">
+                        <div class="media-body">
+                          <h4 class="mt-0">Littérature</h4>
+
+                          <br>
+                      
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                <img src="images/lecture.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Lecture</h5>
+                                        Étant plus jeune, j'avais beaucoup de mal à apprécier la lecture : j'avais l'impression de parler avec un 
+                                        adulte étranger à chaque fois... Ma mère, qui elle est un rat de bibliothèque, m'a tout de même encourager à 
+                                        lire en cherchant le type de lecture qui me conviendrait le plus. Ainsi, j'ai commencé à lire des petites histoires
+                                        avant de me coucher à mes 8 ans et depuis, la lecture est comme une vieille amie : toujours là pour me remonter le moral 
+                                        et me changer les idées quand j'en ai besoin.
+                                </div>
+                            </div>
+
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/ecriture.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Écriture</h5>
+                                        Pendant mon temps libre, lorsque j'ai de l'inspiration ou que je ressents comme un excès de sentiments,
+                                        j'écris. À l'école, j'ai tenu plusieurs journaux intimes. Après quoi, j'ai essayé d'écrire plusieurs chose :
+                                        poèmes, chansons, fictions...
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div id="arts-plastiques" class="media">
+                        <img src="images/arts-plastiques.png" class="mr-3 rounded-circle pictos">
+                        <div class="media-body">
+                          <h4 class="mt-0">Arts plastiques</h4>
+
+                          <br>
+                      
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                <img src="images/dessins.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Dessins</h5>
+                                        
+                                </div>
+                            </div>
+
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/peinture.jpg" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Peintures</h5>
+                                        
+                                </div>
+                            </div>
+
+                            <div class="media mt-3">
+                                <a class="mr-3" href="#">
+                                    <img src="images/" class="mr-3 rounded-circle pictos">
+                                </a>
+                                <div class="media-body">
+                                    <h5 class="mt-0">Artisanat</h5>
+                                        
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
-                <div class="d-none" id="sports">
+                <div id="sports">
                     <h2>Sports</h2>
                 </div>
             </section>
 
             <section class="col box">
                 <button type="button" class="btn btn-outline-dark" id="t4"><h1>Contacts</h1></button>
-                <div class="d-none" id="contacts">
+                <div id="contacts">
 
                 </div>
             </section>
