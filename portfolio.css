@@ -25,8 +25,8 @@
 }
 
 .pictos {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border: 1px solid black;
 }
 
@@ -39,27 +39,31 @@
 
 /* Règlages des boîtes */
 #box1 {
-    background-color: #F7AEF8;
-
-    /*height: 406px;*/
+    position: relative;
+    height: 50vh;
+    background-color: #a9def9;
+    /*background-image: url();*/
 }
 
 #box2 {
-    background-color: #B388EB;
-
-    /*height: 406px;*/
+    position: relative;
+    height: 50vh;
+    background-color: #e4c1f9;
+    /*background-image: url();*/
 }
 
 #box3 {
-    background-color: #8093F1;
-
-    /*height: 406px;*/
+    position: relative;
+    height: 50vh;
+    background-color: #fcf6bd;
+    /*background-image: url();*/
 }
 
 #box4 {
-    background-color: #72DDF7;
-
-    /*height: 406px;*/
+    position: relative;
+    height: 50vh;
+    background-color: #d0f4de;
+    /*background-image: url();*/
 }
 
 /* Centre les "titres" */
@@ -69,23 +73,26 @@
 
 /* Arbre */
 .arbre {
-    margin: none;
-    padding: none;
-    border: none;
+    position: absolute;
+    
 }
 
 #haut-gauche {
-    float: right;
+    bottom: 0;
+    right: 0;
 }
 
 #haut-droit {
-    float: left;
+    bottom: 0;
+    left: 0;
 }
 
 #bas-gauche {
-    float: right;
+    top: 0;
+    right: 0;
 }
 
 #bas-droit {
-    float: left;
+    top: 0;
+    left: 0;
 }
