@@ -24,27 +24,42 @@
     border: 1px solid black;
 }
 
+#photo-profil {
+    width: 155px;
+    height: 155px;
+    border: 3px solid black;
+}
 
-/* Règle les couleurs des boîtes */
+
+/* Règlages des boîtes */
 #box1 {
     background-color: #F7AEF8;
+
+    /*height: 406px;*/
 }
 
 #box2 {
     background-color: #B388EB;
+
+    /*height: 406px;*/
 }
 
 #box3 {
     background-color: #8093F1;
+
+    /*height: 406px;*/
 }
 
 #box4 {
     background-color: #72DDF7;
+
+    /*height: 406px;*/
 }
 
 /* Centre les "titres" */
 #t1 , #t2 , #t3 , #t4 {
     text-align: center;
+    justify-items: center;
 }
 
 /* */
