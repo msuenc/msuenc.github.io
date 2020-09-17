@@ -18,9 +18,15 @@
 
 
 /* Règle la taille des logos, des drapeaux et des pictogrammes */
-.logos , .drapeau , .pictos {
+.logos , .drapeau {
     width: 75px;
     height: 75px;
+    border: 1px solid black;
+}
+
+.pictos {
+    width: 200px;
+    height: 200px;
     border: 1px solid black;
 }
 
@@ -59,10 +65,27 @@
 /* Centre les "titres" */
 #t1 , #t2 , #t3 , #t4 {
     text-align: center;
-    justify-items: center;
 }
 
-/* */
-.row {
-    height: 50%;
+/* Arbre */
+.arbre {
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+#haut-gauche {
+    float: right;
+}
+
+#haut-droit {
+    float: left;
+}
+
+#bas-gauche {
+    float: right;
+}
+
+#bas-droit {
+    float: left;
 }

@@ -7,6 +7,7 @@ $('#t1').click(function(){
     $('#box2').toggle();
     $('#box3').toggle();
     $('#box4').toggle();
+    $('.arbre').toggle();
 });
 
 $('#t2').click(function(){
@@ -16,6 +17,7 @@ $('#t2').click(function(){
     $('#box1').toggle();
     $('#box3').toggle();
     $('#box4').toggle();
+    $('.arbre').toggle();
 });
 
 $('#t3').click(function(){
@@ -25,6 +27,7 @@ $('#t3').click(function(){
     $('#box1').toggle();
     $('#box2').toggle();
     $('#box4').toggle();
+    $('.arbre').toggle();
 });
 
 $('#t4').click(function(){
@@ -33,5 +36,7 @@ $('#t4').click(function(){
     $('#box1').toggle();
     $('#box2').toggle();
     $('#box3').toggle();
+    $('.arbre').toggle();
 });
 
+//Changer les images$('#coiffure').mouseover(function(){$('#coiffure').attr('src' , 'images/');});
