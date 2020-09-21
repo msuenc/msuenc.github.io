@@ -1,4 +1,3 @@
-
 /* Cache div à l'ouverture de la page */
 #presentation , #langues , #informatiques {
     display: none;
@@ -14,6 +13,11 @@
 
 #contacts {
     display: none;
+}
+
+#btn1 , #btn2 , #btn3 , #btn4 {
+    display: none;
+    float: right;
 }
 
 
@@ -66,9 +70,21 @@
     /*background-image: url();*/
 }
 
-/* Centre les "titres" */
+/* Place les titres */
+
 #t1 , #t2 , #t3 , #t4 {
     text-align: center;
+    position: absolute;
+}
+
+#t1 , #t3 {
+    bottom: 50%;
+    right: 50%;
+}
+
+#t2 , #t4 {
+    bottom: 50%;
+    left: 50%;
 }
 
 /* Arbre */
@@ -77,22 +93,22 @@
     
 }
 
-#haut-gauche {
+.haut-gauche {
     bottom: 0;
     right: 0;
 }
 
-#haut-droit {
+.haut-droit {
     bottom: 0;
     left: 0;
 }
 
-#bas-gauche {
+.bas-gauche {
     top: 0;
     right: 0;
 }
 
-#bas-droit {
+.bas-droit {
     top: 0;
     left: 0;
 }
