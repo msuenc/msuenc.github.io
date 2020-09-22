@@ -21,11 +21,15 @@
 }
 
 
-/* Règle la taille des logos, des drapeaux et des pictogrammes */
+/* Logos, drapeaux et pictogrammes */
 .logos , .drapeau {
     width: 75px;
     height: 75px;
     border: 1px solid black;
+}
+
+.namesL {
+    text-align: center;
 }
 
 .pictos {
@@ -70,7 +74,7 @@
     /*background-image: url();*/
 }
 
-/* Place les titres */
+/* Titres */
 
 #t1 , #t2 , #t3 , #t4 {
     text-align: center;

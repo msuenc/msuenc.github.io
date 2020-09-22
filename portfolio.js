@@ -140,3 +140,9 @@ $('#btn4').click(function(){
     $('#box3').css('height', '50vh');
     $('#box4').css('height', '50vh');
 });
+
+//Changer images des loisirs
+
+$('#coiffure').mouseover(function(){
+    $('#coiffure').css('src' , 'images/coiffure1.JPG');
+});
