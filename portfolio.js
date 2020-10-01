@@ -1,5 +1,5 @@
 //Afficher et cacher les parties
-$('#t1').click(function(){
+$('#box1').click(function(){
     $('#presentation').toggle();
     $('#langues').toggle();
     $('#informatiques').toggle();
@@ -37,7 +37,7 @@ $('#btn1').click(function(){
 
 
 
-$('#t2').click(function(){
+$('#box2').click(function(){
     $('#etudes').toggle();
     $('#experiences').toggle();
     $('#btn2').toggle();
@@ -73,7 +73,7 @@ $('#btn2').click(function(){
 
 
 
-$('#t3').click(function(){
+$('#box3').click(function(){
     $('#arts').toggle();
     $('#sports').toggle();
     $('#btn3').toggle();
@@ -109,7 +109,7 @@ $('#btn3').click(function(){
 
 
 
-$('#t4').click(function(){
+$('#box4').click(function(){
     $('#contacts').toggle();
     $('#btn4').toggle();
     $('.leafs').toggle();
@@ -139,10 +139,4 @@ $('#btn4').click(function(){
     $('#box2').css('height', '50vh');
     $('#box3').css('height', '50vh');
     $('#box4').css('height', '50vh');
-});
-
-//Changer images des loisirs
-
-$('#coiffure').mouseover(function(){
-    $('#coiffure').css('src' , 'images/coiffure1.JPG');
 });
