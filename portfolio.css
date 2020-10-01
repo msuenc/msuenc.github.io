@@ -44,6 +44,11 @@
     border: 3px solid black;
 }
 
+.contacts {
+    height: 85px;
+}
+
+
 
 /* Règlages des boîtes */
 #box1 {
