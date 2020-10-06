@@ -44,9 +44,6 @@
     border: 3px solid black;
 }
 
-.contacts {
-    height: 85px;
-}
 
 
 
@@ -122,3 +119,21 @@
     left: 0;
 }
 
+/* Affichage pour les petits écrans */
+/* Affichage pour les tablettes */
+@media only screen and (min-width: 600px){
+
+}
+
+/* Affichage pour les téléphones */
+@media only screen and (max-width: 600px) {
+
+.arbre {
+    display: none;
+}
+
+.snowflakes , .flowers , .deadleafs , .leafs {
+    display: none;
+}
+
+}
