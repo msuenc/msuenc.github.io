@@ -16,23 +16,20 @@ $('#box1').click(function() {
 });
 
 $('#btn1').click(function(){
-    $('#presentation').hide();
-    $('#langues').hide();
-    $('#informatiques').hide();
-    $('#btn1').hide();
+    $('#presentation').toggle();
+    $('#langues').toggle();
+    $('#informatiques').toggle();
+    $('#btn1').toggle();
 
-    $('#box2').show();
-    $('#box3').show();
-    $('#box4').show();
-    $('.arbre').show();
-    $('.snowflakes').show();
+    $('#box2').toggle();
+    $('#box3').toggle();
+    $('#box4').toggle();
+    $('.arbre').toggle();
+    $('.snowflakes').toggle();
 
     $('#t1').css('position' , 'absolute');
 
     $('#box1').css('height', '50vh');
-    $('#box2').css('height', '50vh');
-    $('#box3').css('height', '50vh');
-    $('#box4').css('height', '50vh');
 });
 
 
@@ -53,15 +50,15 @@ $('#box2').click(function(){
 });
 
 $('#btn2').click(function(){
-    $('#etudes').hide();
-    $('#experiences').hide();
-    $('#btn2').hide();
+    $('#etudes').toggle();
+    $('#experiences').toggle();
+    $('#btn2').toggle();
 
-    $('#box1').show();
-    $('#box3').show();
-    $('#box4').show();
-    $('.arbre').show();
-    $('.flowers').show();
+    $('#box1').toggle();
+    $('#box3').toggle();
+    $('#box4').toggle();
+    $('.arbre').toggle();
+    $('.flowers').toggle();
 
     $('#t2').css('position' , 'absolute');
 
@@ -89,15 +86,15 @@ $('#box3').click(function(){
 });
 
 $('#btn3').click(function(){
-    $('#arts').hide();
-    $('#sports').hide();
-    $('#btn3').hide();
+    $('#arts').toggle();
+    $('#sports').toggle();
+    $('#btn3').toggle();
 
-    $('#box1').show();
-    $('#box2').show();
-    $('#box4').show();
-    $('.arbre').show();
-    $('.deadleafs').show();
+    $('#box1').toggle();
+    $('#box2').toggle();
+    $('#box4').toggle();
+    $('.arbre').toggle();
+    $('.deadleafs').toggle();
 
     $('#t3').css('position' , 'absolute');
 
@@ -124,14 +121,14 @@ $('#box4').click(function(){
 });
 
 $('#btn4').click(function(){
-    $('#contacts').hide();
-    $('#btn4').hide();
+    $('#contacts').toggle();
+    $('#btn4').toggle();
 
-    $('#box1').show();
-    $('#box2').show();
-    $('#box3').show();
-    $('.arbre').show();
-    $('.leafs').show();
+    $('#box1').toggle();
+    $('#box2').toggle();
+    $('#box3').toggle();
+    $('.arbre').toggle();
+    $('.leafs').toggle();
 
     $('#t4').css('position' , 'absolute');
 

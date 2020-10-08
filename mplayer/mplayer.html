@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Music Player</title>
+    <link rel="stylesheet" href="style-mp.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b47d791fd4.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</head>
+<body>
+    <audio id="player"></audio>
+    <div id="music">
+
+        <div class="equalizer-btn">
+            <div class="equalizer" id="equalizer-btn-first">
+               <ul id="bares-container">
+                 <li class="first-bar"></li>
+                 <li class="second-bar"></li>
+                 <li class="third-bar"></li>
+                 <li class="fourth-bar"></li>
+                 <li class="fifth-bar"></li>
+          
+                 <li class="first-bar"></li>
+                 <li class="second-bar"></li>
+                 <li class="third-bar"></li>
+                 <li class="fourth-bar"></li>
+                 <li class="fifth-bar"></li>
+          
+                 <li class="first-bar"></li>
+                 <li class="second-bar"></li>
+                 <li class="third-bar"></li>
+                 <li class="fourth-bar"></li>
+                 <li class="fifth-bar"></li>
+          
+                 <li class="first-bar"></li>
+                 <li class="second-bar"></li>
+                 <li class="third-bar"></li>
+                 <li class="fourth-bar"></li>
+                 <li class="fifth-bar"></li>
+          
+                 <li class="first-bar"></li>
+                 <li class="second-bar"></li>
+                 <li class="third-bar"></li>
+                 <li class="fourth-bar"></li>
+                 <li class="fifth-bar"></li>
+          
+                 <li class="first-bar"></li>
+                 <li class="second-bar"></li>
+                 <li class="third-bar"></li>
+                 <li class="fourth-bar"></li>
+                 <li class="fifth-bar"></li>
+          
+              </ul>
+            </div>
+        </div>
+
+        <div class="song_infos">
+            <h1 id="song_name"></h1>
+            <h2 id="song_artist"></h2>
+        </div>
+        
+        <div class="buttons">
+            <div class="previous" onclick="onPrev()">
+                <i class="fas fa-fast-backward"></i>
+            </div>
+            <div id="playNpause">
+                <div class="play" onclick="onPlay()">
+                    <i class="fas fa-play-circle"></i>
+                </div>
+                <div class="pause" onclick="onPause()" hidden>
+                    <i class="fas fa-pause-circle"></i>
+                </div>
+            </div>
+            <div class="next" onclick="onNext()">
+                <i class="fas fa-fast-forward"></i>
+            </div>
+        </div>
+    
+        <div class="progressionbar">
+            <p id="currentTime"></p>
+            <input type="range" min="1" max="100" value="0" 
+            id="position" onchange="onPosition(this.value)"> 
+            <p id="durationTime"></p>
+        </div>
+            
+        <div class="volume">
+            <div class="low_volume">
+                <i class="fas fa-volume-off"></i>
+            </div>
+            <input type="range" min="1" max="100" value="0" 
+            id="volume" onchange="onVolume(this.value)">
+            <div class="high_volume">
+                <i class="fas fa-volume-up"></i>
+            </div>
+        </div>
+    </div>
+
+
+<script src="mplayer.js"></script>
+</body>
+</html>

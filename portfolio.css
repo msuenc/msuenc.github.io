@@ -115,6 +115,12 @@
     left: 0;
 }
 
+/* Paramètres des projets */
+.projects {
+    width: 100%;
+    height: 500px;
+}
+
 /* Affichage pour les petits écrans */
 /* Affichage pour les tablettes */
 @media only screen and (min-width: 600px){
