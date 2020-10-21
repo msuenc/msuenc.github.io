@@ -1,5 +1,5 @@
 //Afficher et cacher les parties
-$('#box1').click(function() {
+$('#t1').click(function() {
     $('#presentation').show();
     $('#langues').show();
     $('#informatiques').show();
@@ -15,7 +15,7 @@ $('#box1').click(function() {
     $('.snowflakes').hide();
 });
 
-$('#btn1').click(function(){
+$('#btn1').click(function() {
     $('#presentation').hide();
     $('#langues').hide();
     $('#informatiques').hide();
@@ -37,7 +37,7 @@ $('#btn1').click(function(){
 
 
 
-$('#box2').click(function(){
+$('#t2').click(function() {
     $('#etudes').show();
     $('#experiences').show();
     $('#btn2').show();
@@ -52,7 +52,7 @@ $('#box2').click(function(){
     $('.flowers').hide();
 });
 
-$('#btn2').click(function(){
+$('#btn2').click(function() {
     $('#etudes').hide();
     $('#experiences').hide();
     $('#btn2').hide();
@@ -73,7 +73,7 @@ $('#btn2').click(function(){
 
 
 
-$('#box3').click(function(){
+$('#t3').click(function() {
     $('#arts').show();
     $('#sports').show();
     $('#btn3').show();
@@ -109,7 +109,7 @@ $('#btn3').click(function(){
 
 
 
-$('#box4').click(function(){
+$('#t4').click(function(){
     $('#contacts').show();
     $('#btn4').show();
 
